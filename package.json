@@ -1,0 +1,24 @@
+{
+  "name": "aws-resources",
+  "version": "0.1.0",
+  "description": "Creation of serverless external resources in AWS",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cognito": "1.98.0",
+    "@aws-cdk/aws-dynamodb": "1.98.0",
+    "@aws-cdk/aws-iam": "1.98.0",
+    "@aws-cdk/aws-s3": "1.98.0",
+    "@aws-cdk/core": "1.98.0",
+    "@serverless-stack/cli": "^0.10.5",
+    "@serverless-stack/resources": "^0.10.5"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.98.0"
+  }
+}
