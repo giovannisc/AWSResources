@@ -39,6 +39,7 @@ Este repositório instância 3 recursos da AWS:
  - cognito
  - dynamodb
  - S3
+ 
 O cognito é um servidor de autenticação super completo e seguro, que pode importa e exportar os usuários para outros servidores, logo é uma solução útil e que não vai lhe deixar dependente.
 O dynamodb é um banco de dados não relacional da Amazon. Veja esse vídeo para entender mais sobre [dynamodb tutorial zup](https://www.youtube.com/watch?v=_l_KBcqfPio)
 O S3 que é um repositório para você guardar arquivos.
